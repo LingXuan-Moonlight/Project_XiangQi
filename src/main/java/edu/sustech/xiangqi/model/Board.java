@@ -2,6 +2,8 @@ package edu.sustech.xiangqi.model;
 
 // 保存棋盘数据，并统一检查和执行移动
 
+import edu.sustech.xiangqi.model.Pieces.*;
+
 public class Board {
     // 定义棋盘大小
     public static final int ROWS = 10;

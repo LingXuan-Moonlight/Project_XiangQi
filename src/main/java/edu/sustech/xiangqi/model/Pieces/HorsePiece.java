@@ -1,10 +1,13 @@
-package edu.sustech.xiangqi.model;
+package edu.sustech.xiangqi.model.Pieces;
 
-//黑马
+//红马
 
-public class HorsePieceB extends Piece {
-    public HorsePieceB() {
-        super("马", false);
+import edu.sustech.xiangqi.model.Board;
+import edu.sustech.xiangqi.model.Piece;
+
+public class HorsePiece extends Piece {
+    public HorsePiece() {
+        super("马", true);
     }
 
     @Override

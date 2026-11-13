@@ -1,6 +1,9 @@
-package edu.sustech.xiangqi.model;
+package edu.sustech.xiangqi.model.Pieces;
 
 //黑卒
+
+import edu.sustech.xiangqi.model.Board;
+import edu.sustech.xiangqi.model.Piece;
 
 public class SoldierPieceB extends Piece {
     public SoldierPieceB() {

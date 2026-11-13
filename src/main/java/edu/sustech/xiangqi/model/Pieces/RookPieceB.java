@@ -1,10 +1,13 @@
-package edu.sustech.xiangqi.model;
+package edu.sustech.xiangqi.model.Pieces;
 
-// 红车
+// 黑车
 
-public class RookPiece extends Piece {
-    public RookPiece() {
-        super("车", true);
+import edu.sustech.xiangqi.model.Board;
+import edu.sustech.xiangqi.model.Piece;
+
+public class RookPieceB extends Piece {
+    public RookPieceB() {
+        super("车", false);
     }
 
     @Override

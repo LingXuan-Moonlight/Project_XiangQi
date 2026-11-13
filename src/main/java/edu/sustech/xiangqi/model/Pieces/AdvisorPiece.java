@@ -1,10 +1,13 @@
-package edu.sustech.xiangqi.model;
+package edu.sustech.xiangqi.model.Pieces;
 
-// 黑士
+// 红仕
 
-public class AdvisorPieceB extends Piece {
-    public AdvisorPieceB() {
-        super("士", false);
+import edu.sustech.xiangqi.model.Board;
+import edu.sustech.xiangqi.model.Piece;
+
+public class AdvisorPiece extends Piece {
+    public AdvisorPiece() {
+        super("仕", true);
     }
 
     @Override
@@ -20,6 +23,6 @@ public class AdvisorPieceB extends Piece {
         }
 
         // 行判断
-        return toRow >= 0 && toRow <= 2;
+        return toRow >= 7 && toRow <= 9;
     }
 }

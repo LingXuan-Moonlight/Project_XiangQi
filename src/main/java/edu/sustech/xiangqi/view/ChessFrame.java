@@ -15,15 +15,6 @@ public final class ChessFrame extends JFrame {
         boardPanel = new BoardPanel(board);
         boardPanel.setLayout(null);  // 关键：关闭布局管理器
 
-        JButton button = new JButton("Click");
-        button.setBounds(10, 10, 80, 30);  // x, y, width, height
-        boardPanel.add(button);
-        JLabel label=new JLabel("Sample");
-        label.setBounds(100, 10, 80, 30);
-        boardPanel.add(label);
-        button.addActionListener(e->{
-            label.setText("Click");
-        });
         setContentPane(boardPanel);
         setSize(1000,1000);
         setResizable(false);
@@ -34,3 +25,5 @@ public final class ChessFrame extends JFrame {
         return boardPanel;
     }
 }
+//TODO:游客模式下禁用存档功能
+//TODO:多用户存档隔离

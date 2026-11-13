@@ -1,10 +1,13 @@
-package edu.sustech.xiangqi.model;
+package edu.sustech.xiangqi.model.Pieces;
 
-//黑炮
+//红炮
 
-public class CannonPieceB extends Piece {
-    public CannonPieceB() {
-        super("炮", false);
+import edu.sustech.xiangqi.model.Board;
+import edu.sustech.xiangqi.model.Piece;
+
+public class CannonPiece extends Piece {
+    public CannonPiece() {
+        super("炮", true);
     }
 
     @Override

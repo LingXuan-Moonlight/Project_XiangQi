@@ -1,6 +1,9 @@
-package edu.sustech.xiangqi.model;
+package edu.sustech.xiangqi.model.Pieces;
 
 //红相
+
+import edu.sustech.xiangqi.model.Board;
+import edu.sustech.xiangqi.model.Piece;
 
 public class ElephantPiece extends Piece {
     public ElephantPiece() {
